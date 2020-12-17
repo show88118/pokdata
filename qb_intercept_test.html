@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QQ浏览器拦截规则验证</title>
+</head>
+<body>
+<h1>全部频道</h1>
+<br> 
+<p>"sDataID":"wangye",/n
+            "sTitle":"全部",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://m.sogou.com/web/searchList.jsp?keyword=",/n
+            "sRegular":"^http(s?):\/\/(sl\.)?(m|wap)\.sogou.com\/web\/(searchList\.jsp|sl)",/n
+            "sWords":"搜索或输入网址",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://m.sogou.com/web/searchList.jsp?keyword=dazhu">1http://m.sogou.com/web/searchList.jsp</a><br><br>
+<br> 
+<a href="http://m.sogou.com/web/sl?keyword=%E7%81%AB%E8%BD%A6">2http://m.sogou.com/web/sl?</a><br><br>
+<br> 
+<a href="http://wap.sogou.com/web/searchList.jsp?keyword=%E7%81%AB%E8%BD%A6">3http://wap.sogou.com/web/searchList.jsp</a><br><br>
+<br> 
+<a href="http://wap.sogou.com/web/sl?keyword=%E7%81%AB%E8%BD%A6">4http://wap.sogou.com/web/sl</a><br><br>
+<br> 
+<a href="https://wap.sogou.com/web/searchList.jsp?keyword=%E7%81%AB%E8%BD%A6">5https://wap.sogou.com/web/searchList.jsp</a><br><br>
+<br> 
+<a href="https://wap.sogou.com/web/sl?keyword=%E7%81%AB%E8%BD%A6">6https://wap.sogou.com/web/sl</a><br><br>
+<br> 
+<a href="https://m.sogou.com/web/searchList.jsp?keyword=%E7%81%AB%E8%BD%A6">7https://m.sogou.com/web/searchList.jsp</a><br><br>
+<br> 
+<a href="https://m.sogou.com/web/sl?keyword=%E7%81%AB%E8%BD%A6">8https://m.sogou.com/web/sl</a><br><br>
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<h1>资讯频道</h1>
+<br> 
+<p>
+sDataID:"xinwen",/n
+          "sDataID":"xinwen",/n
+            "sTitle":"资讯",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://m.sogou.com/web/searchList.jsp?m2web=news.sogou.com&pid=sogou-waps-5b4e201ba2043c10&keyword=",/n
+            "sRegular":"^http(s?):\/\/(sl\.)?(m|wap)\.sogou\.com\/web\/(searchList\.jsp|sl)(.*)m2web=news\.sogou\.com",/n
+            "sWords":"搜索资讯",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<br> 
+<a href="http://m.sogou.com/web/searchList.jsp?m2web=news.sogou.com&keyword=%E7%81%AB%E8%BD%A6">1http://m.sogou.com/web/searchList.jsp</a><br><br>
+<br> 
+<a href="http://m.sogou.com/web/sl?m2web=news.sogou.com&keyword=%E7%81%AB%E8%BD%A6">2http://m.sogou.com/web/sl?m2web=news.sogou.com</a><br><br>
+<br> 
+<a href="http://wap.sogou.com/web/searchList.jsp?m2web=news.sogou.com&keyword=%E7%81%AB%E8%BD%A6">3http://wap.sogou.com/web/searchList.jsp?m2web=news.sogou.com</a><br><br>
+<br> 
+<a href="http://wap.sogou.com/web/sl?m2web=news.sogou.com&keyword=%E7%81%AB%E8%BD%A6">4http://wap.sogou.com/web/sl?m2web=news.sogou.com</a><br><br>
+<br> 
+<a href="https://wap.sogou.com/web/searchList.jsp?m2web=news.sogou.com&keyword=%E7%81%AB%E8%BD%A6">5https://wap.sogou.com/web/searchList.jsp?m2web=news.sogou.com</a><br><br>
+<br> 
+<a href="https://wap.sogou.com/web/sl?m2web=news.sogou.com&keyword=%E7%81%AB%E8%BD%A6">6https://wap.sogou.com/web/sl?m2web=news.sogou.com</a><br><br>
+<br> 
+<a href="https://m.sogou.com/web/searchList.jsp?m2web=news.sogou.com&keyword=%E7%81%AB%E8%BD%A6">7https://m.sogou.com/web/searchList.jsp?m2web=news.sogou.com</a><br><br>
+<br> 
+<a href="https://m.sogou.com/web/sl?m2web=news.sogou.com&keyword=%E7%81%AB%E8%BD%A6">8https://m.sogou.com/web/sl?m2web=news.sogou.com</a><br><br>
+<br> 
+<br>
+<br> 
+
+<h1>科学频道</h1>
+<br> 
+<br> 
+<p>
+            "sDataID":"kexue",/n
+            "sTitle":"科学",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://baike.sogou.com/kexue/home.htm?query=",/n
+	    "sTwiceWebviewUrl":"https://baike.sogou.com/kexue/searchList.htm?query=",/n
+            "sRegular":"^http(s?):\/\/baike\.sogou\.com\/kexue\/home\.htm",/n
+            "sWords":"搜索科学",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<br> 
+<a href="http://baike.sogou.com/kexue/home.htm?keyword=%E7%81%AB%E8%BD%A6">1http://baike.sogou.com/kexue/home.htm</a><br><br><br>
+<a href="https://baike.sogou.com/kexue/home.htm?keyword=%E7%81%AB%E8%BD%A6">2https://baike.sogou.com/kexue/home.htm</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>视频频道</h1>
+<p>
+         "sDataID":"shipin",/n
+            "sTitle":"视频",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://wapv.sogou.com/v?ie=utf8&query=",/n
+            "sRegular":"^https?:\/\/(wapv|waptv|movie|m\.v).sogou.com\/v(.*)query=",/n
+            "sWords":"搜索视频",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://wapv.sogou.com/v?query=%E7%81%AB%E8%BD%A6">1http://wapv.sogou.com/v?query=</a><br><br>
+<a href="https://wapv.sogou.com/v?query=%E7%81%AB%E8%BD%A6">2https://wapv.sogou.com/v?query=</a><br><br>
+<a href="http://wapv.sogou.com/v?nnj=joio&query=%E7%81%AB%E8%BD%A6">3http://wapv.sogou.com/v?nnj=joio&query=</a><br><br>
+<a href="https://wapv.sogou.com/v?nnj=joio&query=%E7%81%AB%E8%BD%A6">4https://wapv.sogou.com/v?nnj=joio&query=</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>图片频道</h1>
+<p>
+         "sDataID":"tupian",/n
+            "sTitle":"图片",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://pic.sogou.com/pic/searchList.jsp?ie=utf8&keyword=",/n
+            "sRegular":"^http(s?):\/\/pic\.sogou\.com\/pic\/searchList\.jsp",/n
+            "sWords":"搜索图片",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://pic.sogou.com/pic/searchList.jsp?keyword=%E7%81%AB%E8%BD%A6">1http://pic.sogou.com/pic/searchList.jsp?</a><br><br>
+<a href="https://pic.sogou.com/pic/searchList.jsp?keyword=%E7%81%AB%E8%BD%A6">2https://pic.sogou.com/pic/searchList.jsp?</a><br><br>
+
+<p>
+
+
+
+
+</p>
+<h1>百科频道</h1>
+<p>
+         "sDataID":"baike",/n
+            "sTitle":"百科",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://m.sogou.com/web/searchList.jsp?insite=baike.sogou.com&pid=sogou-waps-5f15805708a114ef&ie=utf8&key=",/n
+            "sRegular":"^http(s?)://(sl\.)?(m|wap)\.sogou\.com\/web\/(searchList\.jsp|sl)(.*)insite=baike\.sogou\.com",/n
+            "sWords":"搜索百科",/n
+            "sQueryName":[
+                "key",/n
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://m.sogou.com/web/searchList.jsp?insite=baike.sogou.com&keyword=%E7%81%AB%E8%BD%A6">1http://m.sogou.com/web/searchList.jsp?insite=baike.sogou.com</a><br><br>
+<a href="http://m.sogou.com/web/sl?insite=baike.sogou.com&keyword=%E7%81%AB%E8%BD%A6">2http://m.sogou.com/web/sl?insite=baike.sogou.com</a><br><br>
+<a href="http://wap.sogou.com/web/searchList.jsp?insite=baike.sogou.com&keyword=%E7%81%AB%E8%BD%A6">3http://wap.sogou.com/web/searchList.jsp?insite=baike.sogou.com</a><br><br>
+<a href="http://wap.sogou.com/web/sl?insite=baike.sogou.com&keyword=%E7%81%AB%E8%BD%A6">4http://wap.sogou.com/web/sl?insite=baike.sogou.com</a><br><br>
+<a href="https://m.sogou.com/web/searchList.jsp?insite=baike.sogou.com&keyword=%E7%81%AB%E8%BD%A6">5https://m.sogou.com/web/searchList.jsp?insite=baike.sogou.com</a><br><br>
+<a href="https://m.sogou.com/web/sl?insite=baike.sogou.com&keyword=%E7%81%AB%E8%BD%A6">6https://m.sogou.com/web/sl?insite=baike.sogou.com</a><br><br>
+<a href="https://wap.sogou.com/web/searchList.jsp?insite=baike.sogou.com&keyword=%E7%81%AB%E8%BD%A6">7https://wap.sogou.com/web/searchList.jsp?insite=baike.sogou.com</a><br><br>
+<a href="https://wap.sogou.com/web/sl?insite=baike.sogou.com&keyword=%E7%81%AB%E8%BD%A6">8https://wap.sogou.com/web/sl?insite=baike.sogou.com</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>问问频道</h1>
+<p>
+         "sDataID":"wenwen",/n
+            "sTitle":"问问",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://m.sogou.com/web/searchList.jsp?insite=wenwen.sogou.com&pid=sogou-waps-fd2ae8ec902471d8&keyword=",/n
+            "sRegular":"^http(s?):\/\/(sl\.)?(m|wap)\.sogou\.com\/web\/(searchList\.jsp|sl)(.*)insite=wenwen\.sogou\.com",/n
+            "sWords":"搜索问问",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://m.sogou.com/web/searchList.jsp?insite=wenwen.sogou.com&keyword=%E7%81%AB%E8%BD%A6">1http://m.sogou.com/web/searchList.jsp?insite=wenwen.sogou.com</a><br><br>
+<a href="http://m.sogou.com/web/sl?insite=wenwen.sogou.com&keyword=%E7%81%AB%E8%BD%A6">2http://m.sogou.com/web/sl?insite=wenwen.sogou.com</a><br><br>
+<a href="http://wap.sogou.com/web/searchList.jsp?insite=wenwen.sogou.com&keyword=%E7%81%AB%E8%BD%A6">3http://wap.sogou.com/web/searchList.jsp?insite=wenwen.sogou.com</a><br><br>
+<a href="http://wap.sogou.com/web/sl?insite=wenwen.sogou.com&keyword=%E7%81%AB%E8%BD%A6">4http://wap.sogou.com/web/sl?insite=wenwen.sogou.com</a><br><br>
+<a href="https://m.sogou.com/web/searchList.jsp?insite=wenwen.sogou.com&keyword=%E7%81%AB%E8%BD%A6">5https://m.sogou.com/web/searchList.jsp?insite=wenwen.sogou.com</a><br><br>
+<a href="https://m.sogou.com/web/sl?insite=wenwen.sogou.com&keyword=%E7%81%AB%E8%BD%A6">6https://m.sogou.com/web/sl?insite=wenwen.sogou.com</a><br><br>
+<a href="https://wap.sogou.com/web/searchList.jsp?insite=wenwen.sogou.com&keyword=%E7%81%AB%E8%BD%A6">7https://wap.sogou.com/web/searchList.jsp?insite=wenwen.sogou.com</a><br><br>
+<a href="https://wap.sogou.com/web/sl?insite=wenwen.sogou.com&keyword=%E7%81%AB%E8%BD%A6">8https://wap.sogou.com/web/sl?insite=wenwen.sogou.com</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>知识频道</h1>
+<p>
+         "sDataID":"zhishi",/n
+            "sTitle":"知识",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://m.sogou.com/web/sl?pid=sogou-waps-f1398d2c9b361025&v=5&ie=utf8&channel=zhishi&keyword=",/n
+			
+			
+            "sRegular":"^http(s?):\/\/(sl\.)?(m|wap)\.sogou\.com\/web\/sl(.*)channel=zhishi
+			|^http(s?):\/\/(sl\.)?(m|wap)\.sogou\.com\/web\/zhishi\/search\.jsp|
+			^http:\/\/zhishi\.sogou\.com\/zhishi",/n
+            
+			"sWords":"搜索知识",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+			
+			
+</p>
+<a href="http://m.sogou.com/web/sl?pid=sogou-waps-f1398d2c9b361025&v=5&ie=utf8&channel=zhishi&keyword=%E7%81%AB%E8%BD%A6">1http://sl.m.sogou.com/web/sl?pid=sogou-waps-f1398d2c9b361025&v=5&ie=utf8&channel=zhishi&keyword=%E7%81%AB%E8%BD%A6</a><br><br>
+<a href="http://m.sogou.com/web/sl?channel=zhishi&query=%E7%81%AB%E8%BD%A6">2http://m.sogou.com/web/searchList.jsp?channel=zhishi&keyword=%E7%81%AB%E8%BD%A6</a><br><br>
+<a href="http://m.sogou.com/web/zhishi/search.jsp?/web/zhishi/search.jsp&keyword=%E7%81%AB%E8%BD%A6">3http://m.sogou.com/web/searchList.jsp?/web/zhishi/search.jsp&keyword=%E7%81%AB%E8%BD%A6</a><br><br>
+<a href="http://m.sogou.com/web/sl?channel=zhishi&keyword=%E7%81%AB%E8%BD%A6">4http://m.sogou.com/web/sl?channel=zhishi</a><br><br>
+<a href="http://m.sogou.com/web/sl?channel=/web/zhishi/search.jsp&keyword=%E7%81%AB%E8%BD%A6">5http://m.sogou.com/web/sl?channel=/web/zhishi/search.jsp</a><br><br>
+<a href="http://wap.sogou.com/web/searchList.jsp?channel=zhishi&keyword=%E7%81%AB%E8%BD%A6">6http://wap.sogou.com/web/searchList.jsp?channel=zhishi</a><br><br>
+<a href="http://wap.sogou.com/web/searchList.jsp?channel=/web/zhishi/search.jsp&keyword=%E7%81%AB%E8%BD%A6">7http://wap.sogou.com/web/searchList.jsp?channel=/web/zhishi/search.jsp</a><br><br>
+<a href="http://wap.sogou.com/web/sl?channel=zhishi&keyword=%E7%81%AB%E8%BD%A6">8http://wap.sogou.com/web/sl?channel=zhishi</a><br><br>
+<a href="http://wap.sogou.com/web/sl?channel=/web/zhishi/search.jsp&keyword=%E7%81%AB%E8%BD%A6">9http://wap.sogou.com/web/sl?channel=/web/zhishi/search.jsp</a><br><br>
+<a href="https://m.sogou.com/web/searchList.jsp?channel=zhishi&keyword=%E7%81%AB%E8%BD%A6">10https://m.sogou.com/web/searchList.jsp?channel=zhishi</a><br><br>
+<a href="https://m.sogou.com/web/searchList.jsp?channel=/web/zhishi/search.jsp&keyword=%E7%81%AB%E8%BD%A6">11https://m.sogou.com/web/searchList.jsp?channel=/web/zhishi/search.jsp</a><br><br>
+<a href="https://m.sogou.com/web/sl?channel=zhishi&keyword=%E7%81%AB%E8%BD%A6">12https://m.sogou.com/web/sl?channel=zhishi</a><br><br>
+<a href="https://m.sogou.com/web/sl?channel=/web/zhishi/search.jsp&keyword=%E7%81%AB%E8%BD%A6">13https://m.sogou.com/web/sl?channel=/web/zhishi/search.jsp</a><br><br>
+<a href="https://wap.sogou.com/web/searchList.jsp?channel=zhishi&keyword=%E7%81%AB%E8%BD%A6">14https://wap.sogou.com/web/searchList.jsp?channel=zhishi</a><br><br>
+<a href="https://wap.sogou.com/web/searchList.jsp?channel=/web/zhishi/search.jsp&keyword=%E7%81%AB%E8%BD%A6">15https://wap.sogou.com/web/searchList.jsp?channel=/web/zhishi/search.jsp</a><br><br>
+<a href="https://wap.sogou.com/web/sl?channel=zhishi&keyword=%E7%81%AB%E8%BD%A6">16https://wap.sogou.com/web/sl?channel=zhishi</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>英文频道</h1>
+<p>
+        "sDataID":"yingwen",/n
+            "sTitle":"英文",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://english.sogou.com/english?b_o_e=1&keyword=",/n
+            "sRegular":"^http(s?):\/\/english\.sogou\.com\/english",/n
+            "sWords":"搜索英文",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://english.sogou.com/english?keyword=%E7%81%AB%E8%BD%A6">1http://english.sogou.com/english?</a><br><br>
+<a href="https://english.sogou.com/english?keyword=%E7%81%AB%E8%BD%A6">2https://english.sogou.com/english?</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>微信频道</h1>
+<p>
+        "sDataID":"weixin",/n
+            "sTitle":"微信",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://weixin.sogou.com/weixinwap?type=2&ie=utf8&query=",/n
+            "sRegular":"^http(s?):\/\/weixin\.sogou\.com\/weixinwap",/n
+            "sWords":"搜索微信文章或公众号",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ],/n
+            "vRedirRegular":[
+                "^https:\/\/yibo\.iyiyun\.com\/Home\/Distribute\/ad404\/key\/17381"
+            ]
+</p>
+<a href="http://weixin.sogou.com/weixinwap?query=%E7%81%AB%E8%BD%A6">1http://weixin.sogou.com/weixinwap?</a><br><br>
+<a href="https://weixin.sogou.com/weixinwap?query=%E7%81%AB%E8%BD%A6">2https://weixin.sogou.com/weixinwap?</a><br><br>
+<p>
+
+
+https://weixin.sogou.com/
+
+</p>
+<h1>知乎频道</h1>
+<p>
+      "sDataID":"zhihu",/n
+            "sTitle":"知乎",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://m.sogou.com/web/searchList.jsp?insite=zhihu.com&pid=sogou-waps-21a38ed2ee0c2c08&query=",/n
+            "sRegular":"^http(s?)://(sl\.)?(m|wap)\.sogou\.com\/web\/(searchList\.jsp|sl)(.*)insite=zhihu\.com|^https?:\/\/zhihu\.sogou\.com\/zhihuwap\?(.*)query=",/n
+            "sWords":"搜索知乎",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://m.sogou.com/web/searchList.jsp?insite=zhihu.com&keyword=%E7%81%AB%E8%BD%A6">1http://m.sogou.com/web/searchList.jsp?insite=zhihu.com</a><br><br>
+<a href="http://m.sogou.com/web/sl?insite=zhihu.com&keyword=%E7%81%AB%E8%BD%A6">2http://m.sogou.com/web/sl?insite=zhihu.com</a><br><br>
+<a href="http://wap.sogou.com/web/searchList.jsp?insite=zhihu.com&keyword=%E7%81%AB%E8%BD%A6">3http://wap.sogou.com/web/searchList.jsp?insite=zhihu.com</a><br><br>
+<a href="http://wap.sogou.com/web/sl?insite=zhihu.com&keyword=%E7%81%AB%E8%BD%A6">4http://wap.sogou.com/web/sl?insite=zhihu.com</a><br><br>
+<a href="https://m.sogou.com/web/searchList.jsp?insite=zhihu.com&keyword=%E7%81%AB%E8%BD%A6">5https://m.sogou.com/web/searchList.jsp?insite=zhihu.com</a><br><br>
+<a href="https://m.sogou.com/web/sl?insite=zhihu.com&keyword=%E7%81%AB%E8%BD%A6">6https://m.sogou.com/web/sl?insite=zhihu.com</a><br><br>
+<a href="https://wap.sogou.com/web/searchList.jsp?insite=zhihu.com&keyword=%E7%81%AB%E8%BD%A6">7https://wap.sogou.com/web/searchList.jsp?insite=zhihu.com</a><br><br>
+<a href="https://wap.sogou.com/web/sl?insite=zhihu.com&keyword=%E7%81%AB%E8%BD%A6">8https://wap.sogou.com/web/sl?insite=zhihu.com</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>应用频道</h1>
+<p>
+      "sDataID":"yingyong",/n
+            "sTitle":"应用",/n
+            "sType":"h5",/n
+            "sWebviewUrl":{
+                "android":"https://as.sogou.com/app/searchList.jsp?uID=AAHUrCoeJwAAAAqKFD0V+QAA1wA=&ie=utf8&keyword=",/n
+                "ios":"https://as.sogou.com/app/ios/so?query="
+            },/n
+            "sRegular":"^http(s?):\/\/as\.sogou\.com\/app",/n
+            "sWords":"搜索应用",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://as.sogou.com/app/searchList.jsp?keyword=%E7%81%AB%E8%BD%A6">1http://as.sogou.com/app</a><br><br>
+<a href="https://as.sogou.com/app/searchList.jsp?keyword=%E7%81%AB%E8%BD%A6">2https://as.sogou.com/app</a><br><br>
+<a href="http://as.sogou.com/app/ios/so?query=%E7%81%AB%E8%BD%A6">3http://as.sogou.com/app/ios</a><br><br>
+<a href="https://as.sogou.com/app/ios/so?query=%E7%81%AB%E8%BD%A6">4https://as.sogou.com/app/ios</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>学术频道</h1>
+<p>
+        sDataID:"xueshu",/n
+            sTitle:"学术",/n
+            sType:"h5",/n
+            sWebviewUrl:"https://scholar.sogou.com/xueshu?ie=utf8&keyword=",/n
+            iSugType:0,/n
+            sRegular:"^http(s?):\/\/scholar\.sogou\.com\/xueshu",/n
+            sWords:"学术搜索",/n——————改为 搜索学术
+            sQName:"keyword"
+</p>
+<a href="http://scholar.sogou.com/xueshu?keyword=%E7%81%AB%E8%BD%A6">1http://scholar.sogou.com/xueshu</a><br><br>
+<a href="https://scholar.sogou.com/xueshu?keyword=%E7%81%AB%E8%BD%A6">2https://scholar.sogou.com/xueshu</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>地图频道</h1>
+<p>
+        sDataID:"ditu",/n
+            sTitle:"地图",/n
+            sType:"h5",/n
+            sWebviewUrl:"https://map.sogou.com/m/webapp/m.html#originurltype=sogotopmore&ie=utf8&lq=",/n
+            iSugType:0,/n
+            sRegular:"^http(s?):\/\/map\.sogou\.com\/m\/webapp\/m\.html",/n
+            sWords:"搜狗地图",/n——————改为 搜索地图
+            sQName:"keyword"——————URL里目前是lq，请确认哈
+</p>
+<a href="http://map.sogou.com/m/webapp/m.html?&keyword=%E7%81%AB%E8%BD%A6">1http://map.sogou.com/m/webapp/m.html</a><br><br>
+<a href="https://map.sogou.com/m/webapp/m.html?&keyword=%E7%81%AB%E8%BD%A6">2https://map.sogou.com/m/webapp/m.html</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>翻译频道</h1>
+<p>
+        "sDataID":"fanyi",/n
+            "sTitle":"翻译",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://fanyi.sogou.com/?fr=wapsearch_nav&ie=utf8&transfrom=auto&transto=zh-CHS&keyword=",/n
+            "sRegular":"^http(s?):\/\/fanyi\.sogou\.com",/n
+            "sWords":"搜索翻译",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://fanyi.sogou.com?&keyword=%E7%81%AB%E8%BD%A6">1http://fanyi.sogou.com</a><br><br>
+<a href="https://fanyi.sogou.com?&keyword=%E7%81%AB%E8%BD%A6">2https://fanyi.sogou.com</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>名医频道</h1>
+<p>
+        sDataID:"mingyi",/n
+            sTitle:"明医",/n
+            sType:"h5",/n
+            sWebviewUrl:"https://m.sogou.com/web/searchList.jsp?m2web=mingyi.sogou.com&ie=utf8&keyword=",/n
+            iSugType:0,/n
+            sRegular:"^http(s?):\/\/(m|wap)\.sogou\.com\/web\/(searchList\.jsp|sl)(.*)m2web=mingyi\.sogou\.com",/n
+            sWords:"搜狗明医",/n——————改为 搜索明医
+            sQName:"keyword"
+</p>
+<a href="http://m.sogou.com/web/searchList.jsp?m2web=mingyi.sogou.com&keyword=%E7%81%AB%E8%BD%A6">1http://m.sogou.com/web/searchList.jsp?m2web=mingyi.sogou.com</a><br><br>
+<a href="http://m.sogou.com/web/sl?m2web=mingyi.sogou.com&keyword=%E7%81%AB%E8%BD%A6">2http://m.sogou.com/web/sl?m2web=mingyi.sogou.com</a><br><br>
+<a href="http://wap.sogou.com/web/searchList.jsp?m2web=mingyi.sogou.com&keyword=%E7%81%AB%E8%BD%A6">3http://wap.sogou.com/web/searchList.jsp?m2web=mingyi.sogou.com</a><br><br>
+<a href="http://wap.sogou.com/web/sl?m2web=mingyi.sogou.com&keyword=%E7%81%AB%E8%BD%A6">4http://wap.sogou.com/web/sl?m2web=mingyi.sogou.com</a><br><br>
+<a href="https://m.sogou.com/web/searchList.jsp?m2web=mingyi.sogou.com&keyword=%E7%81%AB%E8%BD%A6">5https://m.sogou.com/web/searchList.jsp?m2web=mingyi.sogou.com</a><br><br>
+<a href="https://m.sogou.com/web/sl?m2web=mingyi.sogou.com&keyword=%E7%81%AB%E8%BD%A6">6https://m.sogou.com/web/sl?m2web=mingyi.sogou.com</a><br><br>
+<a href="https://wap.sogou.com/web/searchList.jsp?m2web=mingyi.sogou.com&keyword=%E7%81%AB%E8%BD%A6">7https://wap.sogou.com/web/searchList.jsp?m2web=mingyi.sogou.com</a><br><br>
+<a href="https://wap.sogou.com/web/sl?m2web=mingyi.sogou.com&keyword=%E7%81%AB%E8%BD%A6">8https://wap.sogou.com/web/sl?m2web=mingyi.sogou.com</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>购物频道</h1>
+<p>
+        "sDataID":"gouwu",/n
+            "sTitle":"购物",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://ishop.sogou.com/search?ie=utf-8&query=",/n
+            "sRegular":"^http(s?):\/\/ishop\.sogou\.com\/search",/n
+            "sWords":"搜索购物",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://ishop.sogou.com/search?&keyword=%E7%81%AB%E8%BD%A6">1http://ishop.sogou.com/search</a><br><br>
+<a href="https://ishop.sogou.com/search?&keyword=%E7%81%AB%E8%BD%A6">2https://ishop.sogou.com/search</a><br><br>
+<p>
+
+
+
+
+</p>
+<h1>汉语频道</h1>
+<p>
+       "sDataID":"hanyu",/n
+            "sTitle":"汉语",/n
+            "sType":"h5",/n
+            "sWebviewUrl":"https://hanyu.sogou.com/result?query=",/n
+            "sRegular":"^http(s?):\/\/hanyu\.sogou\.com\/result",/n
+            "sWords":"搜索汉语",/n
+            "sQueryName":[
+                "keyword",/n
+                "query"
+            ]
+</p>
+<a href="http://hanyu.sogou.com/result?&query=%E7%81%AB%E8%BD%A6">1http://hanyu.sogou.com/result</a><br><br>
+<a href="https://hanyu.sogou.com/result?&query=%E7%81%AB%E8%BD%A6">2https://hanyu.sogou.com/result</a><br><br>
+<a href="https://hanyu.sogou.com/result?keyword=%E7%81%AB%E8%BD%A6">https://hanyu.sogou.com/?</a><br>
+
+</body>
+</html>
